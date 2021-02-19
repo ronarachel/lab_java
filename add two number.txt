@@ -1,0 +1,25 @@
+//write a java program to add 2 numbers
+
+import java.util.Scanner; 
+
+public class add_two_num
+{
+	  public static void main(String[] args) 
+	  {
+      		int a,b, sum;
+      		Scanner Obj = new Scanner(System.in); 
+    		System.out.println("Enter a number:");
+    		a= Obj.nextInt();
+    		System.out.println("Enter another number:");
+   		b= Obj.nextInt(); 
+    
+    		sum = a+b;  
+    		System.out.println("Sum is: " + sum); 
+  	   }
+} 
+
+Output:
+Enter a number:
+9
+Enter another number:
+4
