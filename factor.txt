@@ -1,0 +1,19 @@
+//write a program to find the factors of a number
+
+public class factor
+{
+ 	 public static void main(String[] args)
+ 	 {
+    		int num = 35;
+   		 System.out.print("Factors of " + num + " are: ");
+
+	    	 for (int i = 1; i <= num; ++i)
+    		{
+      			if (num % i == 0)
+        			System.out.print(i + " ");
+    		}
+  	}
+}
+
+Output:
+Factors of 35 are: 1 5 7 35 
