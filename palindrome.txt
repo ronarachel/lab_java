@@ -1,0 +1,23 @@
+//Write a program to check given no is palindrome or not
+
+public class palindrome
+{  
+ 	public static void main(String args[])
+ 	{  
+ 		 int a,sum=0,temp,n=343;
+ 		 temp=n;    
+ 		 while(n>0)
+ 		 {    
+		      a=n%10;
+		      sum=(sum*10)+a;    
+		      n=n/10;   
+		  }    
+		  if(temp==sum)    
+		   System.out.println(sum+" is a palindrome number ");    
+  		  else    
+  		 System.out.println(sum+" is not a palindrome");    
+ 	}  
+}  
+
+Output:
+343 is not a palindrome
